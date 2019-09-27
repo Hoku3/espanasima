@@ -71,8 +71,7 @@ yarn.lock
 
 .netlify/
 
-# local content
-content/
+
 
 # Contentful model
 contentful-export.json
