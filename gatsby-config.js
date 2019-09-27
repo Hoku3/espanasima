@@ -22,28 +22,28 @@ module.exports = {
 		]
 	},
 	plugins: [
-		// {
-		// 	resolve: '@narative/gatsby-theme-novela',
-		// 	options: {
-		// 		contentPosts: 'content/posts',
-		// 		contentAuthors: 'content/authors',
-		// 		basePath: '/',
-		// 		authorsPage: true,
-		// 		sources: {
-		// 			local: true
-		// 			// contentful: true,
-		// 		}
-		// 	}
-		// },
 		{
 			resolve: '@narative/gatsby-theme-novela',
 			options: {
+				contentPosts: 'content/posts',
+				contentAuthors: 'content/authors',
+				basePath: '/',
 				authorsPage: true,
 				sources: {
+					local: true,
 					contentful: true
 				}
 			}
 		},
+		// {
+		// 	resolve: '@narative/gatsby-theme-novela',
+		// 	options: {
+		// 		authorsPage: true,
+		// 		sources: {
+		// 			contentful: true
+		// 		}
+		// 	}
+		// },
 		{
 			resolve: 'gatsby-source-contentful',
 			options: {
