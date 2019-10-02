@@ -13,7 +13,7 @@ module.exports = {
 		social: [
 			{
 				name: `twitter`,
-				url: `@BOX_ESP`
+				url: `https://twitter.com/box_esp`
 			}
 			// {
 			// 	name: `instagram`,
