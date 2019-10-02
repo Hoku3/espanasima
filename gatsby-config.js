@@ -1,5 +1,4 @@
 require('dotenv').config();
-
 module.exports = {
 	siteMetadata: {
 		title: `España Sima`,
@@ -21,16 +20,14 @@ module.exports = {
 			// }
 		]
 	},
+
 	plugins: [
 		{
 			resolve: '@narative/gatsby-theme-novela',
 			options: {
-				contentPosts: 'content/posts',
-				contentAuthors: 'content/authors',
-				basePath: '/',
 				authorsPage: true,
 				sources: {
-					// local: true,
+					local: false,
 					contentful: true
 				}
 			}
