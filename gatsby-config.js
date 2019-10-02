@@ -5,20 +5,20 @@ module.exports = {
 		title: `España Sima`,
 		name: `España Sima`,
 		siteUrl: `https://espanasima.com`,
-		description: `Pending`,
+		description: `Hagamos Pangea grande otra vez. Pangea una, no cincuenta y una. Si eres un pangeano de bien, esta es tu web`,
 		hero: {
-			heading: `Missing heading`,
+			heading: `Bienvenidos a Pangea. Si eres un pangeano de bien, esta es tu web. #Pangea1no51`,
 			maxWidth: 652
 		},
 		social: [
 			{
 				name: `twitter`,
-				url: `https://twitter.com/narative`
-			},
-			{
-				name: `instagram`,
-				url: `https://instagram.com/narative.co`
+				url: `@BOX_ESP`
 			}
+			// {
+			// 	name: `instagram`,
+			// 	url: `https://instagram.com/narative.co`
+			// }
 		]
 	},
 	plugins: [
