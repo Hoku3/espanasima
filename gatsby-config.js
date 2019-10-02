@@ -8,7 +8,7 @@ module.exports = {
 		description: `Hagamos Pangea grande otra vez. Pangea una, no cincuenta y una. Si eres un pangeano de bien, esta es tu web`,
 		hero: {
 			heading: `Bienvenidos a Pangea. Si eres un pangeano de bien, esta es tu web. #Pangea1no51`,
-			maxWidth: 652
+			maxWidth: 692
 		},
 		social: [
 			{
